@@ -4,8 +4,8 @@
   --accent1-color: #157145;
   --accent2-color: #1b4965;
 
-  --heading-font: "IBM Plex Serif";
-  --body-font: "IBM Plex Sans";
+  --heading-font: Georgia;
+  --body-font: Helvetica;
 }
 
 * {
