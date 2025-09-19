@@ -3,7 +3,6 @@
   --secondary-color: #44e5e7;
   --accent1-color: #157145;
   --accent2-color: #1b4965;
-
   --heading-font: Georgia;
   --body-font: Helvetica;
 }
@@ -68,6 +67,12 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  background-color: var(--accent1-color);
+  padding: 10px;
+  text-align: center;
+}
+
 article {
   position: absolute;
   top: 420px;
@@ -81,4 +86,6 @@ article {
 .hero article img {
   float: right;
   width: 125px;
+  margin: 10px;
+  border: 1px solid #fff;
 }
