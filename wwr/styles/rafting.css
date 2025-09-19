@@ -43,6 +43,10 @@ nav, p, section, article {
   text-decoration: none;
 }
 
+.socialmedia img {
+  width: 75px;
+}
+
 .hero {
   position: relative;
 }
