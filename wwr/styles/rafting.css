@@ -64,6 +64,7 @@ nav, p, section, article {
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
 h1 {
@@ -131,9 +132,15 @@ article {
   color: #fff;
   text-align: center;
   display: grid;
-  grid-template: 50px 200px / 1fr 1fr 1fr 1fr;
+  grid-template: 50px 1fr / 1fr 1fr 1fr;
   margin: 10px 0 0 0;
 } 
+
+.history img {
+  grid-column: 2;
+  width: 100%;
+  height: auto;
+}
 
 .adventure {
   display: grid;
@@ -149,6 +156,7 @@ article {
 .adventure img {
   width: 100%;
   height: auto;
+  padding: 2px;
   }
 
   figcaption {
