@@ -18,6 +18,10 @@ header {
   color: var(--accent2-color)
 }
 
+header img {
+  margin: 10px 0 10px 10px;
+}
+
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
@@ -26,7 +30,7 @@ body {
 footer {
   display: flex;
   align-items: center;
-
+  justify-content: flex-end;
 }
 
 header, main, footer {
@@ -89,6 +93,11 @@ article {
   color: #fff;
 }
 
+.logo {
+  width: 150px;
+  height: auto;
+}
+
 .hero article img {
   float: right;
   width: 125px;
@@ -107,8 +116,11 @@ article {
   }
 
   nav {
-    grid-column: 2/3;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    grid-column: 2/5;
   }
+
+.flex {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
