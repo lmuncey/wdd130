@@ -81,6 +81,7 @@ h2 {
   background-color: var(--accent1-color);
   padding: 10px;
   text-align: center;
+  grid-column: 2/3;
 }
 
 article {
@@ -124,3 +125,32 @@ article {
   list-style: none;
   justify-content: space-evenly;
 }
+
+.history {
+  background-color: var(--accent1-color);
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template: 50px 200px / 1fr 1fr 1fr 1fr;
+  margin: 10px 0 0 0;
+} 
+
+.adventure {
+  display: grid;
+  grid-template: 50px 200px / 20% 20% 20% 20% 20%;
+  margin: 10px 0 0 0 ;
+  padding: 0;
+}
+
+  h2 {
+  grid-column: 1/6;
+  }
+
+.adventure img {
+  width: 100%;
+  height: auto;
+  }
+
+  figcaption {
+    text-align: center;
+  }
