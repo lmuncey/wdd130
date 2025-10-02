@@ -227,6 +227,4 @@ button {
   padding: 2px;
   margin-left: 1rem;
   display: grid;
-  grid-template-rows: 2 / 3;
-
   }
