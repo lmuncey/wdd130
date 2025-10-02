@@ -34,13 +34,13 @@
         <div class="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7917.0833855185665!2d-110.78589644048574!3d43.422533530360504!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1759426309107!5m2!1sen!2sus"
-            width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            width="400" height="400" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <form class="contact-form">
           <div class="form column2">
-            <label>Name<input type="text" name="name" placeholder="John Doe"><br>
-              <label>Email<input type="email" name="email" placeholder="johndoe@email.com"><br>
+            <label>Name<input type="text" id="name" name="name" placeholder="John Doe"></label><br>
+            <label>Email<input type="email" id="email" name="email" placeholder="johndoe@email.com"></label><br>
           </div>
           <div class="column1">
             <p>Message Purpose</p>
@@ -51,7 +51,7 @@
             <label><input type="radio" name="purpose">Website Suggestion</label><br>
           </div>
           <div class="form part3">
-            <label>Message<textarea id="message" name="message" placeholder="Type here"></textarea>
+            <label>Message<textarea id="message" name="message" placeholder="Type here"></label>
           </div>
           <div class="form part4">
             <label><input type="checkbox" name="newsletter">Please subscribe me to the monthly newsletter</label>
