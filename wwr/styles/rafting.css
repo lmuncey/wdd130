@@ -158,7 +158,6 @@ article {
   height: auto;
   padding: 2px;
   display: grid;
-  grid-template-rows: 2 / 3;
     }
 
   figcaption {
